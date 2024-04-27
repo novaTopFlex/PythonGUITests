@@ -2,6 +2,7 @@ import tkinter
 import tkinter.ttk
 
 root = tkinter.Tk()
+root.title("Cursors")
 notes = tkinter.ttk.Notebook(root)
 notes.pack()
 tabA = tkinter.ttk.Frame(root)
