@@ -16,6 +16,8 @@ tabE = tkinter.ttk.Frame(root)
 notes.add(tabE, text="Cursors 41-50")
 tabF = tkinter.ttk.Frame(root)
 notes.add(tabF, text="Cursors 51-60")
+tabG = tkinter.ttk.Frame(root)
+notes.add(tabG, text="Cursors 61-70")
 def cursor0():
   root.configure(cursor="X_cursor")
 
@@ -334,152 +336,152 @@ bt25.pack()
 def cursor26():
   root.configure(cursor="rtl_logo")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor26)
 bt5.pack()
 
 def cursor27():
   root.configure(cursor="sailboat")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor27)
 bt5.pack()
 
 def cursor28():
   root.configure(cursor="sb_down_arrow")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor28)
 bt5.pack()
 
 def cursor29():
   root.configure(cursor="sb_h_double_arrow")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor29)
 bt5.pack()
 
 def cursor30():
   root.configure(cursor="sb_left_arrow")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor30)
 bt5.pack()
 
 def cursor31():
   root.configure(cursor="sb_right_arrow")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor31)
 bt5.pack()
 
 def cursor32():
   root.configure(cursor="sb_up_arrow")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor32)
 bt5.pack()
 
 def cursor33():
   root.configure(cursor="sb_v_double_arrow")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor33)
 bt5.pack()
 
 def cursor34():
   root.configure(cursor="shuttle")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor34)
 bt5.pack()
 
 def cursor35():
   root.configure(cursor="sizing")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor35)
 bt5.pack()
 
 def cursor36():
   root.configure(cursor="spider")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor36)
 bt5.pack()
 
 def cursor37():
   root.configure(cursor="spraycan")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor37)
 bt5.pack()
 
 def cursor38():
   root.configure(cursor="star")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor38)
 bt5.pack()
 
 def cursor39():
   root.configure(cursor="target")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor39)
 bt5.pack()
 
 def cursor40():
   root.configure(cursor="tcross")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor40)
 bt5.pack()
 
 def cursor41():
   root.configure(cursor="top_left_arrow")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor41)
 bt5.pack()
 
 def cursor42():
   root.configure(cursor="top_left_corner")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor42)
 bt5.pack()
 
 def cursor43():
   root.configure(cursor="top_right_corner")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor43)
 bt5.pack()
 
 def cursor44():
   root.configure(cursor="top_side")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor44)
 bt5.pack()
 
 def cursor45():
   root.configure(cursor="top_tee")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor45)
 bt5.pack()
 
 def cursor46():
   root.configure(cursor="trek")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor46)
 bt5.pack()
 
 def cursor47():
   root.configure(cursor="ul_angle")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor47)
 bt5.pack()
 
 def cursor48():
   root.configure(cursor="umbrella")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor48)
 bt5.pack()
 
 def cursor49():
   root.configure(cursor="ur_angle")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5 = tkinter.Button(root, text="bogosity", command=cursor49)
 bt5.pack()
 
 def cursor50():
   root.configure(cursor="watch")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+bt50 = tkinter.Button(root, text="bogosity", command=cursor50)
+bt50.pack()
 
 def cursor51():
   root.configure(cursor="xterm")
