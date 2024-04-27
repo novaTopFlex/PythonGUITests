@@ -82,164 +82,164 @@ bt9.pack()
 def cursorA():
   root.configure(cursor="box_spiral")
 
-btA = tkinter.Button(root, text="box_spiral", command=cursorA)
+btA = tkinter.Button(tabB, text="box_spiral", command=cursorA)
 btA.pack()
 
 def cursorB():
   root.configure(cursor="center_ptr")
 
-btB = tkinter.Button(root, text="center_ptr", command=cursorB)
+btB = tkinter.Button(tabB, text="center_ptr", command=cursorB)
 btB.pack()
 
 def cursorC():
   root.configure(cursor="circle")
 
-btC = tkinter.Button(root, text="circle", command=cursorC)
+btC = tkinter.Button(tabB, text="circle", command=cursorC)
 btC.pack()
 
 def cursorD():
   root.configure(cursor="clock")
 
-btD = tkinter.Button(root, text="bogosity", command=cursorD)
+btD = tkinter.Button(tabB, text="clock", command=cursorD)
 btD.pack()
 
 def cursorE():
   root.configure(cursor="coffee_mug")
 
-btE = tkinter.Button(root, text="bogosity", command=cursorE)
+btE = tkinter.Button(tabB, text="coffee_mug", command=cursorE)
 btE.pack()
 
 def cursorF():
   root.configure(cursor="cross")
 
-btF = tkinter.Button(root, text="bogosity", command=cursorF)
+btF = tkinter.Button(tabB, text="cross", command=cursorF)
 btF.pack()
 
 def cursorG():
   root.configure(cursor="cross_reverse")
 
-btG = tkinter.Button(root, text="bogosity", command=cursorG)
+btG = tkinter.Button(tabB, text="cross_reverse", command=cursorG)
 btG.pack()
 
 def cursorH():
   root.configure(cursor="crosshair")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursorH)
-bt5.pack()
+btH = tkinter.Button(tabB, text="crosshair", command=cursorH)
+btH.pack()
 
 def cursorI():
   root.configure(cursor="diamond_cross")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursorI)
-bt5.pack()
+btI = tkinter.Button(tabB, text="diamond_cross", command=cursorI)
+btI.pack()
 
 def cursorJ():
   root.configure(cursor="dot")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursorJ)
-bt5.pack()
+btJ = tkinter.Button(tabB, text="dot", command=cursorJ)
+btJ.pack()
 
 def cursorK():
   root.configure(cursor="dotbox")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursorK)
-bt5.pack()
+btK = tkinter.Button(tabC, text="dotbox", command=cursorK)
+btK.pack()
 
 def cursorL():
   root.configure(cursor="double_arrow")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursorL)
-bt5.pack()
+btL = tkinter.Button(tabC, text="double_arrow", command=cursorL)
+btL.pack()
 
 def cursorM():
   root.configure(cursor="draft_large")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursorM)
-bt5.pack()
+btM = tkinter.Button(tabC, text="draft_large", command=cursorM)
+btM.pack()
 
 def cursorN():
   root.configure(cursor="draft_small")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursorN)
-bt5.pack()
+btN = tkinter.Button(tabC, text="draft_small", command=cursorN)
+btN.pack()
 
 def cursorO():
   root.configure(cursor="draped_box")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursorO)
-bt5.pack()
+btO = tkinter.Button(tabC, text="draped_box", command=cursorO)
+btO.pack()
 
 def cursorP():
   root.configure(cursor="exchange")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+btP = tkinter.Button(tabC, text="exchange", command=cursorP)
+btP.pack()
 
 def cursorQ():
   root.configure(cursor="fleur")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+btQ = tkinter.Button(tabC, text="fleur", command=cursorQ)
+btQ.pack()
 
 def cursorR():
   root.configure(cursor="gobbler")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+btR = tkinter.Button(tabC, text="gobbler", command=cursorR)
+btR.pack()
 
 def cursorS():
   root.configure(cursor="gumby")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+btS = tkinter.Button(tabC, text="gumby", command=cursorS)
+btS.pack()
 
 def cursorT():
   root.configure(cursor="hand1")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+btT = tkinter.Button(tabC, text="hand1", command=cursorT)
+btT.pack()
 
 def cursorU():
   root.configure(cursor="hand2")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+btU = tkinter.Button(root, text="hand2", command=cursorU)
+btU.pack()
 
 def cursorV():
   root.configure(cursor="heart")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+btV = tkinter.Button(root, text="heart", command=cursorV)
+btV.pack()
 
 def cursorW():
   root.configure(cursor="icon")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+btW = tkinter.Button(root, text="icon", command=cursorW)
+btW.pack()
 
 def cursorX():
   root.configure(cursor="iron_cross")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+btX = tkinter.Button(root, text="iron_cross", command=cursorX)
+btX.pack()
 
 def cursorY():
   root.configure(cursor="left_ptr")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+btY = tkinter.Button(root, text="left_ptr", command=cursorY)
+btY.pack()
 
 def cursorZ():
   root.configure(cursor="left_side")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+btZ = tkinter.Button(root, text="left_side", command=cursorZ)
+btZ.pack()
 
 def cursor10():
   root.configure(cursor="left_tee")
 
-bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
-bt5.pack()
+bt10 = tkinter.Button(root, text="left_tee", command=cursor10)
+bt10.pack()
 
 def cursor11():
   root.configure(cursor="leftbutton")
