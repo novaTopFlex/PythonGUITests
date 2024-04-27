@@ -19,7 +19,7 @@ notes.add(tabF, text="Cursors 51-60")
 tabG = tkinter.ttk.Frame(root)
 notes.add(tabG, text="Cursors 61-70")
 tabH = tkinter.ttk.Frame(root)
-notes.add(tabH, text="Cursors 71-77")
+notes.add(tabH, text="Cursors 71-78")
 def cursor0():
   root.configure(cursor="X_cursor")
 
@@ -326,7 +326,7 @@ bt23.pack()
 def cursor24():
   root.configure(cursor="right_tee")
 
-bt24 = tkinter.Button(tabE, text="right_tee", command=cursor24)
+bt24 = tkinter.Button(tabF, text="right_tee", command=cursor24)
 bt24.pack()
 
 def cursor25():
@@ -386,7 +386,7 @@ bt33.pack()
 def cursor34():
   root.configure(cursor="shuttle")
 
-bt34 = tkinter.Button(tabF, text="bogosity", command=cursor34)
+bt34 = tkinter.Button(tabG, text="bogosity", command=cursor34)
 bt34.pack()
 
 def cursor35():
@@ -446,7 +446,7 @@ bt43.pack()
 def cursor44():
   root.configure(cursor="top_side")
 
-bt44 = tkinter.Button(tabG, text="bogosity", command=cursor44)
+bt44 = tkinter.Button(tabH, text="bogosity", command=cursor44)
 bt44.pack()
 
 def cursor45():
