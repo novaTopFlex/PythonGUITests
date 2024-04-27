@@ -4,22 +4,38 @@ root = tkinter.Tk()
 def cursor0():
   root.configure(cursor="X_cursor")
 
-bt1 = tkinter.Button(root, text="X_cursor", command=cursor0)
+bt0 = tkinter.Button(root, text="X_cursor", command=cursor0)
+bt0.pack()
 
 def cursor1():
   root.configure(cursor="arrow")
 
+bt1 = tkinter.Button(root, text="arrow", command=cursor1)
+bt1.pack()
+
 def cursor2():
   root.configure(cursor="based_arrow_down")
+
+bt2 = tkinter.Button(root, text="based_arrow_down", command=cursor2)
+bt2.pack()
 
 def cursor3():
   root.configure(cursor="based_arrow_up")
 
+bt3 = tkinter.Button(root, text="based_arrow_up", command=cursor3)
+bt3.pack()
+
 def cursor4():
   root.configure(cursor="boat")
 
+bt4 = tkinter.Button(root, text="boat", command=cursor4)
+bt4.pack()
+
 def cursor5():
   root.configure(cursor="bogosity")
+
+bt5 = tkinter.Button(root, text="bogosity", command=cursor5)
+bt5.pack()
 
 def cursor6():
   root.configure(cursor="bottom_left_corner")
