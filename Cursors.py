@@ -1,9 +1,9 @@
 import tkinter
 
 root = tkinter.Tk()
-def cursor1():
+def cursor0():
   root.configure(cursor="X_cursor")
-bt1 = tkinter.Button(root, text="X_cursor")
+bt1 = tkinter.Button(root, text="X_cursor", command=cursor0)
 
 def cursor1():
   root.configure(cursor="arrow")
