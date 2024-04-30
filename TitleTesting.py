@@ -5,28 +5,28 @@ import tkinter
 root = tkinter.Tk()
 
 def tkA():
-  root.configure(text="Test Window")
+  root.title("Test Window")
 
 def tkB():
-  root.configure(text="Demo Window")
+  root.title("Demo Window")
 
 def tkC():
-  root.configure(text="Support")
+  root.title("Support")
 
 def tkD():
-  root.configure(text="Dictionary")
+  root.title("Dictionary")
 
 def tkE():
-  root.configure(text="Documentation")
+  root.title("Documentation")
 
 def tkF():
-  root.configure(text="Editor")
+  root.title("Editor")
 
 def tkG():
-  root.configure(text="Photo Editor")
+  root.title("Photo Editor")
 
 def tkH():
-  root.configure(text="Workstation")
+  root.title("Workstation")
 
 
 buttonA = tkinter.Button(root, text="Change to Test Window", command=tkA)
